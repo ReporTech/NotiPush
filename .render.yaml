@@ -1,0 +1,12 @@
+# .render.yaml
+services:
+  - type: web
+    name: notipush-app # Reemplaza con un nombre único para tu servicio (ej. NotiPush-Web)
+    env: php
+    buildCommand: composer install --no-dev --prefer-dist && yarn # Ajusta si yarn no es necesario
+    startCommand: php -S 0.0.0.0:$PORT -t .
+    rootDir: . # Esto indica la raíz de tu repositorio
+    # Si tienes variables de entorno (por ejemplo, claves de API, configuración de base de datos), puedes añadirlas aquí:
+    # envVars:
+    #   - key: MI_VARIABLE
+    #     value: "mi_valor"
