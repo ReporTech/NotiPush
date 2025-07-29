@@ -7,7 +7,6 @@ namespace Jose\Component\KeyManagement\Analyzer;
 use Jose\Component\Core\JWK;
 use Override;
 use function in_array;
-use function sprintf;
 
 final readonly class UsageAnalyzer implements KeyAnalyzer
 {

@@ -14,7 +14,6 @@ use Override;
 use Throwable;
 use function count;
 use function is_array;
-use function sprintf;
 
 final readonly class CompactSerializer implements JWESerializer
 {

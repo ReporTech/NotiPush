@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Jose\Component\Core\Util;
 
-use InvalidArgumentException;
-use RangeException;
 use function strlen;
 
 /**

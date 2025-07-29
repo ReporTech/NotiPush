@@ -14,15 +14,15 @@ use Minishlink\WebPush\WebPush;
 const AUTH = [
  "VAPID" => [
   "subject" => "https://notificacionesphp.gilbertopachec2.repl.co/",
-  "publicKey" => "BDTUUVGwQd4jqCtfOrq1CtrW6MXCzqfVcRlE1dX-i1aJ1y3ifF2JhYCFOfxbneEZz-7Dadjw2jCQ21UL1OWukv4",
-  "privateKey" => "FYDnxi_x7O7u_g1Ud8ia6-dWWRokJErXwJ3VK78rNok"
+  "publicKey" => "BMBlr6YznhYMX3NgcWIDRxZXs0sh7tCv7_YCsWcww0ZCv9WGg-tRCXfMEHTiBPCksSqeve1twlbmVAZFv7GSuj0",
+  "privateKey" => "vplfkITvu0cwHqzK9Kj-DYStbCH_9AhGx9LqMyaeI6w"
  ]
 ];
 
 ejecutaServicio(function () {
 
  $webPush = new WebPush(AUTH);
- $mensaje = $mensaje = isset($_REQUEST['mensaje']) ? $_REQUEST['mensaje'] : "Hola! 👋";
+ $mensaje = "Hola desde el equipo ProRam 👋";
 
  // Envia el mensaje a todas las suscripciones.
 

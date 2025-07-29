@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Jose\Component\Checker;
 
 use InvalidArgumentException;
-use function sprintf;
 
 /**
  * This class is a factory to create Header Checker Managers. It allows to add header parameter checkers and token type

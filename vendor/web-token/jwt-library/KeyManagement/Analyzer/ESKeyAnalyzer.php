@@ -10,7 +10,6 @@ use Jose\Component\Core\Util\Base64UrlSafe;
 use Jose\Component\Core\Util\Ecc\Curve;
 use Override;
 use function is_string;
-use function sprintf;
 use function strlen;
 
 abstract readonly class ESKeyAnalyzer implements KeyAnalyzer

@@ -6,7 +6,6 @@ namespace Jose\Component\Encryption;
 
 use InvalidArgumentException;
 use function array_key_exists;
-use function sprintf;
 
 /**
  * @internal

@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace Jose\Component\Checker;
 
 /**
+ * Interface HeaderChecker
+ *
  * This interface defines the contract for a header checker.
  */
 interface HeaderChecker

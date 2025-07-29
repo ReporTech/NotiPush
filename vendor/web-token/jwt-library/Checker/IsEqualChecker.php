@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Jose\Component\Checker;
 
 use Override;
-use function sprintf;
 
 /**
  * This class implements a claim and header checker that checks if the value is equal to the expected value.

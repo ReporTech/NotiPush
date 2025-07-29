@@ -6,7 +6,6 @@ namespace Jose\Component\Encryption\Serializer;
 
 use InvalidArgumentException;
 use Jose\Component\Encryption\JWE;
-use function sprintf;
 
 final class JWESerializerManager
 {

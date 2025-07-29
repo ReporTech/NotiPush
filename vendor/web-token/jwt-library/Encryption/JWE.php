@@ -9,7 +9,6 @@ use Jose\Component\Core\JWT;
 use Override;
 use function array_key_exists;
 use function count;
-use function sprintf;
 
 class JWE implements JWT
 {

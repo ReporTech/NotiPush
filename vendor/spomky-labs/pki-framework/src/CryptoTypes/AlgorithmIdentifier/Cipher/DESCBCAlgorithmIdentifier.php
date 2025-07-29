@@ -12,8 +12,9 @@ use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 use UnexpectedValueException;
 
 /*
- * RFC 2898 defines parameters as follows:
- * {OCTET STRING (SIZE(8)) IDENTIFIED BY desCBC}
+RFC 2898 defines parameters as follows:
+
+{OCTET STRING (SIZE(8)) IDENTIFIED BY desCBC}
  */
 
 /**
